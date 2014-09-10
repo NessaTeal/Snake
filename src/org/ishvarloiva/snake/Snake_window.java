@@ -1,9 +1,8 @@
-package screen;
+package org.ishvarloiva.snake;
 
-import screen_paint.ApplicationWindow;
 import javax.swing.*;
-import engine.Snake_Engine;
-import variables.Variables;
+
+
 
 /**
  * It is helper class to show main frame. Make it abstract to disable instantiate.

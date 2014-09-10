@@ -1,10 +1,8 @@
-package engine;
+package org.ishvarloiva.snake;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.lang.Math;
-import screen_paint.ApplicationWindow;
-import variables.Variables;
 import java.awt.Point;
 
 public class Snake_Engine implements KeyListener, Runnable {

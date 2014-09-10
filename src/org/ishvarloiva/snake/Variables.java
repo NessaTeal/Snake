@@ -1,4 +1,4 @@
-package variables;
+package org.ishvarloiva.snake;
 
 import java.util.ArrayList;
 import java.awt.Point;

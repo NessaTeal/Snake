@@ -1,11 +1,11 @@
-package screen_paint;
+package org.ishvarloiva.snake;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import javax.swing.JPanel;
-import screen.Snake_window;
-import variables.Variables;
+
+
 
 
 public class ApplicationWindow extends JPanel {

@@ -1,6 +1,5 @@
-package core;
+package org.ishvarloiva.snake;
 
-import screen.Snake_window;
 
 public class Snake {
 
