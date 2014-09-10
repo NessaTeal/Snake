@@ -14,7 +14,7 @@ public class ApplicationWindow extends JPanel {
   public Snake_window parent;
   private static final long serialVersionUID = 1L;
 
-  public ApplicationWindow(Variables vars, Snake_window parent) {
+  public ApplicationWindow(Variables vars) {
     this.vars = vars;
   }
 
