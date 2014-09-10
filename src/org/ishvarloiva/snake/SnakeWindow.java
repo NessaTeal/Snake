@@ -10,18 +10,18 @@ import javax.swing.*;
  * @author user
  * 
  */
-public abstract class Snake_window {
+public abstract class SnakeWindow {
   /*
    * add private constructor to disable inheritance
    */
-  private Snake_window() {}
+  private SnakeWindow() {}
 
   public static void show() {
     Variables  vars = new Variables();
     JFrame frame = new JFrame("Snake");
     // parent unused - remove it
-    ApplicationWindow window = new ApplicationWindow(vars);
-    Snake_Engine e = new Snake_Engine(vars, window);
+    ApplicationPanel window = new ApplicationPanel(vars);
+    SnakeEngine e = new SnakeEngine(vars, window);
     frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     frame.setBounds(500, 200, 597, 480);
     

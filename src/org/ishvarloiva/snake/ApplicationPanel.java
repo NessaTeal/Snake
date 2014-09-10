@@ -8,13 +8,13 @@ import javax.swing.JPanel;
 
 
 
-public class ApplicationWindow extends JPanel {
+public class ApplicationPanel extends JPanel {
   public String state = "new game";
   Variables vars;
-  public Snake_window parent;
+  public SnakeWindow parent;
   private static final long serialVersionUID = 1L;
 
-  public ApplicationWindow(Variables vars) {
+  public ApplicationPanel(Variables vars) {
     this.vars = vars;
   }
 

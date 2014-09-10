@@ -5,14 +5,14 @@ import java.awt.event.KeyListener;
 import java.lang.Math;
 import java.awt.Point;
 
-public class Snake_Engine implements KeyListener, Runnable {
+public class SnakeEngine implements KeyListener, Runnable {
   boolean flag = false;
   boolean fruit_flag = false;
   Variables vars;
-  ApplicationWindow parent;
+  ApplicationPanel parent;
   Thread worker = new Thread(this);
 
-  public Snake_Engine(Variables vars, ApplicationWindow parent) {
+  public SnakeEngine(Variables vars, ApplicationPanel parent) {
     this.vars = vars;
     this.parent = parent;
     move_fruit();
